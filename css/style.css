@@ -50,6 +50,10 @@ h3 {
     margin-bottom: 1rem 0;
 }
 
+h6 {
+    text-align: center;
+}
+
 .ms_gray_text {
     color: #898989;
     margin-bottom: 2rem;
@@ -168,10 +172,45 @@ main {
     align-self: center;
 }
 
+.ms_accessories {
+    justify-content: flex-start;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ms_accessories img {
+    width: 200px;
+}
+
+.ms_accessories h6 {
+    display: none;
+}
+
+.ms_border_image {
+    border-bottom: 3px solid #197cd0;
+}
+
+.ms_opacity {
+    filter: opacity(0.5);
+}
+
 
 /*********
 RESPONSIVE
 *********/
+
+/* TABLET VERSION */
+
+@media all and (min-width: 768px) {
+
+    .ms_accessories {
+        justify-content: space-around;
+    }
+    
+    .ms_accessories h6 {
+        display: block;
+    }
+}
 
 
 /* DESKTOP VERSION */
