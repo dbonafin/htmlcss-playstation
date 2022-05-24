@@ -3,6 +3,10 @@ body {
     background-color: bisque;
 }
 
+.ms_white_section {
+    background-color: white;
+}
+
 /* COMMON */
 
 body {
@@ -23,7 +27,7 @@ img {
 }
 
 .btn {
-    border-radius: 1.25rem;
+    border-radius: 20px;
 }
 
 .btn:hover {
@@ -31,6 +35,7 @@ img {
 }
 
 h3 {
+    font-size: 2.2rem;
     margin-bottom: 1rem;
 }
 
@@ -100,9 +105,9 @@ main {
     margin-top: 90px;
 }
 
-/* JUMBOTRON */
+/* RETURNAL BANNER SECTION */
 
-.ms_jumbo {
+.ms_game_banner {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: top;
@@ -111,11 +116,11 @@ main {
     padding-top: 13rem;
 }
 
-.ms_jumbo_content img {
+.ms_game_banner_content img {
     width: 50%;
 }
 
-.ms_jumbo_text {
+.ms_game_banner_text {
     margin-top: 2rem;
 }
 
@@ -125,11 +130,20 @@ main {
     border-color: #cd3c10;
 }
 
+/* EXCLUSIVE GAMES SECTION */
+
+.exclusive_games_card img {
+    margin: 1rem 0;
+    border-radius: 20px;
+}
+
 
 /*********
 RESPONSIVE
 *********/
 
+
+/* DESKTOP VERSION */
 
 @media all and (min-width: 992px) {
 
@@ -151,7 +165,7 @@ RESPONSIVE
 
     /* JUMBROTRON */
 
-    .ms_jumbo_content {
+    .ms_game_banner_content {
         width: 320px;
     }
     
