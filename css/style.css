@@ -1,11 +1,3 @@
-/* DEBUG */
-body {
-    background-color: bisque;
-}
-
-.ms_white_section {
-    background-color: white;
-}
 
 /* COMMON */
 
@@ -123,12 +115,12 @@ header {
 /* MAIN */
 
 main {
-    margin-top: 90px;
+    margin-top: 105px;
 }
 
 /* RETURNAL BANNER SECTION */
 
-.ms_game_banner {
+.ms_first_banner {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: top;
@@ -194,6 +186,15 @@ main {
     filter: opacity(0.5);
 }
 
+/* IT TAKES TWO SECTION */
+
+.ms_second_banner {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: top;
+    padding-top: 3rem;
+}
+
 
 /*********
 RESPONSIVE
@@ -233,10 +234,14 @@ RESPONSIVE
 
     /* MAIN */
 
-    /* JUMBROTRON */
+    /* RETURNAL BANNER */
 
-    .ms_game_banner_content {
-        width: 320px;
+    .ms_first_banner .ms_game_banner_content {
+        width: 340px;
     }
-    
+
+    /* IT TAKES TWO BANNER */
+    .ms_second_banner .ms_game_banner_content {
+        width: 450px;
+    }
 }
