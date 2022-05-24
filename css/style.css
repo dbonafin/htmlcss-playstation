@@ -19,10 +19,17 @@ img {
 
 .ms_dark_section {
     color: white;
+    padding: 3rem 0;
+}
+
+.ms_white_section {
+    color: black;
+    padding: 3rem 0;
 }
 
 .ms_large_container {
     width: 95%;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
@@ -34,9 +41,19 @@ img {
     color: #fff;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 h3 {
     font-size: 2.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem 0;
+}
+
+.ms_gray_text {
+    color: #898989;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 /* HEADER */
@@ -62,7 +79,7 @@ header {
 
 .ms_bottom_footer {
     background-color: white;
-    padding: 0 0.5rem;
+    padding: 0.5rem 1.5rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -111,8 +128,6 @@ main {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: top;
-    display: flex;
-    height: 520px;
     padding-top: 13rem;
 }
 
@@ -135,6 +150,22 @@ main {
 .exclusive_games_card img {
     margin: 1rem 0;
     border-radius: 20px;
+}
+
+/* PLAYSTATION 5 SECTION */
+
+.ms_ps5_intro {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.ms_special_text {
+    text-transform: uppercase;
+    color: #197cd0;
+}
+
+.ms_vertical_center {
+    align-self: center;
 }
 
 
