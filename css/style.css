@@ -1,0 +1,103 @@
+/* DEBUG */
+body {
+    background-color: bisque;
+}
+
+/* COMMON */
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.ms_top_footer {
+    background-color: black;
+    padding: 0.5rem;
+    text-align: right;
+}
+
+.ms_top_footer img {
+    height: 0.8rem;
+}
+
+.ms_bottom_footer {
+    background-color: white;
+    padding: 0 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ms_bottom_footer a {
+    color: black;
+}
+
+.ms_right_menu {
+    display: none;
+    justify-self: flex-end;
+} 
+
+.ms_left_menu {
+    display: none;
+}
+
+.ms_header_icon {
+    width: 0.8rem;
+}
+
+.ms_search_icon {
+    width: 1.5rem;
+}
+
+.btn_black {
+    color: #fff;
+    background-color: #363636;
+    border-color: #363636;
+    border-radius: 30px;
+    padding: 0 0.5rem;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.nav-link {
+    padding: 0 0.5rem;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 100px;
+}
+
+/*********
+RESPONSIVE
+*********/
+
+
+@media all and (min-width: 992px) {
+
+    /* HEADER */
+
+    .ms_menu_icon {
+        display: none;
+    }
+
+    .ms_right_menu {
+        display: block;
+    }
+
+    .ms_left_menu {
+        display: inline-block;
+    }
+    
+}
