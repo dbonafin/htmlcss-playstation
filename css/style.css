@@ -238,6 +238,13 @@ main {
     width: 205px;
 }
 
+/* PLAYSTATION STORE SECTION */
+
+.ms_offers .ms_ps_product {
+    cursor: pointer;
+}
+
+/* PLAYSTATION NOW SECTION */
 
 
 /*********
