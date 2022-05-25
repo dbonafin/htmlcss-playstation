@@ -26,6 +26,11 @@ img {
 
 .btn {
     border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.btn:not(.btn_black) {
+    margin-top: 1rem;
 }
 
 .btn:hover {
@@ -104,7 +109,7 @@ header {
     color: #fff;
     background-color: #363636;
     border-color: #363636;
-    padding: 0 0.5rem;
+    padding: 0 0.8rem;
 }
 
 .nav-link {
@@ -235,7 +240,6 @@ main {
     color: #3e6fe5;
     background-color: #d9dadc;
     border-color: #d9dadc;
-    width: 205px;
 }
 
 /* PLAYSTATION STORE SECTION */
@@ -246,17 +250,30 @@ main {
 
 /* PLAYSTATION NOW SECTION */
 
+.ms_now_section {
+    background-color: #161c3b;
+    color: white;
+}
+
+.btn_now {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+
 
 /*********
 RESPONSIVE
 *********/
+
 
 /* MOBILE VERSION */
 
 @media all and (max-width: 768px) {
 
     .ms_subscription_content {
-        padding: 2rem 0;
+        padding: 3rem 0;
     }
 }
 
@@ -272,7 +289,8 @@ RESPONSIVE
         display: block;
     }
 
-    .ms_plus_section .row {
+    .ms_plus_section .row,
+    .ms_now_section .row {
         align-items: center;
     }
 
