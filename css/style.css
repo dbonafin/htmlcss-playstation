@@ -47,7 +47,6 @@ h6 {
 
 .ms_gray_text {
     color: #898989;
-    margin-bottom: 2rem;
     font-size: 1.5rem;
 }
 
@@ -119,11 +118,15 @@ main {
 
 /* RETURNAL BANNER SECTION */
 
+.ms_game_banner {
+    height: 600px;
+}
+
 .ms_first_banner {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: top;
-    padding-top: 13rem;
+    padding-top: 18rem;
 }
 
 .ms_game_banner_content img {
@@ -147,11 +150,11 @@ main {
     border-radius: 20px;
 }
 
-/* PLAYSTATION 5 SECTION */
+/* PLAYSTATION FIVE SECTION */
 
-.ms_ps5_intro {
+.ms_ps_intro {
     text-align: center;
-    margin: 4rem 0;
+    margin-top: 4rem;
 }
 
 .ms_special_text {
@@ -203,6 +206,17 @@ main {
 .new_games_card img {
     margin: 1rem 0;
     border-radius: 10px;
+}
+
+/* PLAYSTATION FOUR SECTION */
+
+.fa-registered {
+    font-size: 0.8rem;
+    vertical-align: super;
+}
+
+.ms_ps_product {
+    margin: 1.5rem 0;
 }
 
 
