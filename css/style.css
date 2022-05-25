@@ -35,6 +35,7 @@ img {
 
 .btn:hover {
     color: #fff;
+    transform: scale(1.1);
 }
 
 h2 {
@@ -242,6 +243,10 @@ main {
     border-color: #d9dadc;
 }
 
+.btn_plus:hover {
+    color: #3e6fe5;
+}
+
 /* PLAYSTATION STORE SECTION */
 
 .ms_offers .ms_ps_product {
@@ -261,6 +266,32 @@ main {
     border-color: white;
 }
 
+.btn_now:hover {
+    color: black;
+}
+
+/* SOCIAL MEDIA SECTION */
+
+.ms_social_section {
+    padding: 5rem 0;
+}
+
+.ms_social_intro {
+    text-align: center;
+}
+
+.ms_social_intro h3 {
+    font-size: 2.5rem;
+}
+
+.ms_social {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.ms_social img {
+    max-width: 90%;
+}
 
 
 /*********
@@ -289,10 +320,10 @@ RESPONSIVE
         display: block;
     }
 
-    .ms_plus_section .row,
+    /* .ms_plus_section .row,
     .ms_now_section .row {
         align-items: center;
-    }
+    } */
 
     .ms_subscription_content img {
         width: 100%;
