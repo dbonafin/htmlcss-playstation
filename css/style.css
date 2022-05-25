@@ -34,6 +34,7 @@ img {
 
 h2 {
     font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -219,10 +220,38 @@ main {
     margin: 1.5rem 0;
 }
 
+/* PLAYSTATION PLUS SECTION */
+
+.ms_plus_section {
+    background-color: #bebcbb;
+}
+
+.ms_subscription_content img {
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.btn_plus {
+    color: #3e6fe5;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+    width: 205px;
+}
+
+
 
 /*********
 RESPONSIVE
 *********/
+
+/* MOBILE VERSION */
+
+@media all and (max-width: 768px) {
+
+    .ms_subscription_content {
+        padding: 2rem 0;
+    }
+}
 
 /* TABLET VERSION */
 
@@ -234,6 +263,14 @@ RESPONSIVE
     
     .ms_accessories h6 {
         display: block;
+    }
+
+    .ms_plus_section .row {
+        align-items: center;
+    }
+
+    .ms_subscription_content img {
+        width: 100%;
     }
 }
 
@@ -258,14 +295,15 @@ RESPONSIVE
 
     /* MAIN */
 
-    /* RETURNAL BANNER */
-
-    .ms_first_banner .ms_game_banner_content {
-        width: 340px;
+    .ms_game_banner_content img {
+        max-width: 70%;
     }
 
-    /* IT TAKES TWO BANNER */
-    .ms_second_banner .ms_game_banner_content {
-        width: 450px;
+    .ms_game_banner_content {
+        width: 500px;
+    }
+
+    .ms_subscription_content {
+        width: 90%;
     }
 }
