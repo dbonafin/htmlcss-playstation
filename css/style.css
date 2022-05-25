@@ -68,24 +68,24 @@ header {
     font-family: Helvetica, arial, sans-serif;
 }
 
-.ms_top_footer {
+.ms_top_header {
     background-color: black;
     padding: 0.5rem;
     text-align: right;
 }
 
-.ms_top_footer img {
+.ms_top_header img {
     height: 14px;
 }
 
-.ms_bottom_footer {
+.ms_bottom_header {
     background-color: white;
     padding: 0.5rem 1.5rem;
     justify-content: space-between;
     align-items: center;
 }
 
-.ms_bottom_footer a {
+.ms_bottom_header a {
     color: black;
 }
 
@@ -193,6 +193,11 @@ main {
 
 .ms_opacity {
     filter: opacity(0.5);
+    cursor: pointer;
+}
+
+.ms_opacity:hover {
+    filter: opacity(1);
 }
 
 /* IT TAKES TWO SECTION */
@@ -293,6 +298,48 @@ main {
     max-width: 90%;
 }
 
+/* FOOTER */
+
+footer {
+    padding: 5rem 0;
+    background-color: #00439b;
+    color: white;
+}
+
+.ms_footer_list {
+    margin: 1rem 0;
+}
+
+.ms_footer_list li {
+    color: white;
+    list-style-type: none;
+}
+
+.ms_footer_list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.ms_play_logo {
+    height: 120px;
+    margin-bottom: 2rem;
+}
+
+.ms_play_logo img {
+    height: 100%;
+}
+
+.ms_sie_logo img {
+    width: 100px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.ms_list_group {
+    margin-top: 3rem;
+}
+
+
 
 /*********
 RESPONSIVE
@@ -361,5 +408,11 @@ RESPONSIVE
 
     .ms_subscription_content {
         width: 90%;
+    }
+
+    /* FOOTER */
+
+    .ms_list_group {
+        margin-top: 0;
     }
 }
