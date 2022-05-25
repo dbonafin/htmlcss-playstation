@@ -29,10 +29,6 @@ img {
     padding: 0.5rem 1rem;
 }
 
-.btn:not(.btn_black) {
-    margin-top: 1rem;
-}
-
 .btn:hover {
     color: #fff;
     transform: scale(1.1);
@@ -78,43 +74,34 @@ header {
     height: 14px;
 }
 
-.ms_bottom_header {
-    background-color: white;
-    padding: 0.5rem 1.5rem;
-    justify-content: space-between;
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .play-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-expand-lg .navbar-nav .play-menu-item {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: fit-content;
 }
 
-.ms_bottom_header a {
-    color: black;
+.navbar-expand-lg .navbar-nav .bottom-play-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-.ms_right_menu {
-    display: none;
-    justify-self: flex-end;
-} 
-
-.ms_left_menu {
-    display: none;
-}
-
-.ms_header_icon {
-    width: 14px;
-}
-
-.ms_search_icon {
-    width: 20px;
-}
-
-.btn_black {
-    color: #fff;
-    background-color: #363636;
-    border-color: #363636;
-    padding: 0 0.8rem;
-}
-
-.nav-link {
-    padding: 0 0.5rem;
+.ms_icon_search {
+    width: 35px;
+    cursor: pointer;
 }
 
 /* MAIN */
@@ -155,6 +142,11 @@ main {
 .exclusive_games_card img {
     margin: 1rem;
     border-radius: 20px;
+}
+
+.exclusive_games_card:hover {
+    cursor: pointer;
+    transform: translateY(20px);
 }
 
 /* PLAYSTATION FIVE SECTION */
@@ -339,6 +331,15 @@ footer {
     margin-top: 3rem;
 }
 
+.ms_footer_icon {
+    width: 20px;
+    vertical-align: sub;
+}
+
+.text-decoration-underline {
+    cursor: pointer;
+}
+
 
 
 /*********
@@ -354,6 +355,14 @@ RESPONSIVE
         padding: 3rem 0;
     }
 }
+
+@media screen and (max-width: 992px) {
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 100%;
+    }
+} 
 
 /* TABLET VERSION */
 
@@ -416,3 +425,6 @@ RESPONSIVE
         margin-top: 0;
     }
 }
+
+
+
